@@ -1,0 +1,17 @@
+.site-header {
+  background-color: #f72210;
+}
+
+.site-header a {
+  color: #8e8e8e;
+  transition: color 0.15s ease-in-out;
+}
+
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-header .red {
+  background: #f8f8f8;
+}
