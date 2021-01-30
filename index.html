@@ -13,6 +13,17 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header class="site-header p-3 ms-3 me-3">
@@ -21,7 +32,7 @@
           <p class="text-white">Thu, Jan 28, 2021</p>
         </div>
         <div class="col-4 text-center">
-          <a class="blog-header-logo text-dark" href="#">
+          <a class="blog-header-logo" href="#">
             <img src="asset/images/logo.png" alt="" />
           </a>
         </div>
@@ -35,26 +46,102 @@
         </div>
       </div>
     </header>
-    <div class="p-3 ms-3 me-3">
-      <div class="nav-scroller py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
-            <span class="border-right"><a class="link-secondary " href="#">U.S.</a></span>
-          
-          <a class="link-secondary" href="#">World</a>
-          <a class="link-secondary" href="#">U.S.</a>
-          <a class="link-secondary" href="#">Technology</a>
-          <a class="link-secondary" href="#">Design</a>
-
-          <a class="link-secondary" href="#">Culture</a>
-          <a class="link-secondary" href="#">Business</a>
-          <a class="link-secondary" href="#">Politics</a>
-          <a class="link-secondary" href="#">Opinion</a>
-          <a class="link-secondary" href="#">Science</a>
-          <a class="link-secondary" href="#">Health</a>
-          <a class="link-secondary" href="#">Style</a>
-          <a class="link-secondary" href="#">Travel</a>
-        </nav>
-      </div>
+    <div class="top-menu ms-3 me-3 bg-white">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div>
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav top me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="#">U.S.</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">World</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Business</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Tech & Science</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Culture</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Newsgeek</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Health</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">The Debate</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Experts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Vantage</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <div class="search">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Search"
+                  aria-label="Search"
+                  size="4"
+                />
+              </div>
+              <div><img src="asset/images/searchicon.png" /></div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="sub ms-3 me-3 bg-white">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-header">
+              <span class="trend-story">TRENDING</span>
+            </div>
+            <ul class="navbar-nav submenu me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="#">Joe Biden</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Donald Trump</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Coronavirus</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Stimulus Package</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Vaccine</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Capitol Riots</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
 
     <script
