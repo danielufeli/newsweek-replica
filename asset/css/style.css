@@ -102,7 +102,7 @@ input[type='text'] {
   padding: 10px;
   font-size: 17px;
   background-color: #ffffff;
-  width: 75px;
+  width: fit-content;
   font-weight: bold;
   text-transform: uppercase;
   opacity: 0.8;
@@ -117,6 +117,19 @@ input[type='text'] {
   font-weight: bold;
   text-transform: uppercase;
   margin: 0 auto;
+}
+
+.img-catpion-issue {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #f72210;
+  font-size: 16px;
+  background-color: #fff;
+  padding: 0px 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: fit-content;
+  opacity: 0.8;
 }
 
 .img-catpion-small h4 {
@@ -290,4 +303,40 @@ p:after {
 
 .newsletter-signup button:hover {
   background-color: #f72210;
+}
+
+.issue-article-title {
+  background-color: #f4f5f6;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  color: #000;
+  border: none;
+  width: 100%;
+}
+
+.issue-article-title:hover {
+  background-color: #d3d3d3;
+}
+
+.issue-span {
+  color: #fff;
+  background-color: #f72210;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.issue-span-new {
+  color: #f72210;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.issue-span-new a {
+  color: #f72210;
+  text-decoration: none;
 }
