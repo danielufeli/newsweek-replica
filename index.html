@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="asset/images/favicon-32x32.png"/>
     <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
-    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,130 +25,142 @@
     />
   </head>
   <body>
-    <header class="site-header p-3 ms-3 me-3">
-      <div class="row flex-nowrap justify-content-between align-items-center">
-        <div class="col-4 pt-1">
-          <p class="text-white">Thu, Jan 28, 2021</p>
-        </div>
-        <div class="col-4 text-center">
-          <a class="blog-header-logo" href="#">
-            <img src="asset/images/logo.png" alt="" />
-          </a>
-        </div>
-        <div class="col-4 d-flex justify-content-end align-items-center">
-          <div><a class="link-secondary text-white" href="#"> LOGIN </a></div>
-          <div class="ps-4">
-            <button type="button" class="btn btn-warning btn-rounded">
-              SUBSCRIBE >
-            </button>
+    <header>
+      <div class="site-header p-3 ms-3 me-3 d-none d-lg-block d-md-9">
+        <div>
+          <div
+            class="row flex-nowrap justify-content-between align-items-center"
+          >
+            <div class="col-md-4 pt-1">
+              <p class="text-white">Thu, Jan 28, 2021</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <a class="blog-header-logo" href="#">
+                <img src="asset/images/logo.png" alt="" />
+              </a>
+            </div>
+            <div class="col-md-4 d-flex justify-content-end align-items-center">
+              <div>
+                <a class="link-secondary text-white" href="#"> LOGIN </a>
+              </div>
+              <div class="ps-4">
+                <button type="submit" class="top-sub-button p-2">
+                  SUBSCRIBE >
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </header>
-    <div class="top-menu ms-3 me-3 bg-white">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div>
-          <button
-            class="navbar-toggler ms-auto"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav top me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a href="#">U.S.</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">World</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Business</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Tech & Science</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Culture</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Newsgeek</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Sports</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Health</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">The Debate</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Experts</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Vantage</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <div class="search">
-                <input
-                  class="form-control"
-                  type="text"
-                  placeholder="Search"
-                  aria-label="Search"
-                  size="4"
-                />
-              </div>
-              <div><img src="asset/images/searchicon.png" /></div>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div class="sub ms-3 me-3 bg-white">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-header">
-              <span class="trend-story ms-3 me-3">TRENDING</span>
+      <div class="top-menu ms-3 me-3 bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light px-3" id="navbar-mobile">
+          <a class="navbar-brand" href="#" id="nav-band-logo">
+            <img src="asset/images/logo-mobile.jpg" alt="nav-logo" />
+          </a>
+          <div>
+            <button type="submit" id="sbutton" class="top-sub-button p-2">
+                  SUBSCRIBE >
+            </button>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#main_nav"
+              aria-controls="main_nav"
+              aria-expanded="false"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+              <ul class="navbar-nav top ml-auto mb-2 mb-lg-0">
+                <li class="nav-item px-3">
+                  <a href="#">U.S.</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a href="#">World</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a href="#">Business</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a href="#">Tech & Science</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a href="#">Culture</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a href="#">Newsgeek</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a href="#">Sports</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a href="#">Health</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a href="#">The Debate</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a href="#">Experts</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a href="#">Vantage</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <div class="search">
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Search"
+                    aria-label="Search"
+                    size="4"
+                  />
+                </div>
+                <div><img src="asset/images/searchicon.png" alt="searchicon" /></div>
+              </form>
             </div>
-            <ul class="navbar-nav submenu me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a href="#">Joe Biden</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Donald Trump</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Coronavirus</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Stimulus Package</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Vaccine</a>
-              </li>
-              <li class="nav-item">
-                <a href="#">Capitol Riots</a>
-              </li>
-            </ul>
           </div>
-        </div>
-      </nav>
-    </div>
-
+        </nav>
+      </div>
+      <div class="sub ms-3 me-3 bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse">
+              <div class="navbar-header">
+                <span class="trend-story ms-3 me-3">TRENDING</span>
+              </div>
+              <ul class="navbar-nav submenu me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="#">Joe Biden</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">Donald Trump</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">Coronavirus</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">Stimulus Package</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">Vaccine</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">Capitol Riots</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
     <section class="p-4 ms-3 me-3 bg-white">
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-3">
-          <div class="trend-title">FEATURED STORIES</div>
+          <h1 class="trend-title">FEATURED STORIES</h1>
           <div class="row">
-            <article>
+            <div>
               <div class="card text-black">
                 <a href="#"
                   ><img
@@ -175,8 +186,8 @@
                 of President Joe Biden's new administration to lead the country
                 out of economic recession decreases with rising age.
               </div>
-            </article>
-            <article>
+            </div>
+            <div>
               <div class="card text-black">
                 <a href="#"
                   ><img
@@ -202,8 +213,8 @@
                 of an oft-stalled peace process in Syria, where President Joe
                 Biden is looking to recalibrate U.S. strategy.
               </div>
-            </article>
-            <article>
+            </div>
+            <div>
               <div class="card text-black">
                 <a href="#"
                   ><img
@@ -229,8 +240,8 @@
                 basis would necessarily be the right approach at this stage,"
                 the chief U.S. economist at Oxford Economics told Newsweek.
               </div>
-            </article>
-            <article>
+            </div>
+            <div>
               <div class="card text-black">
                 <a href="#"
                   ><img
@@ -256,8 +267,8 @@
                 Cuomo's handling of the pandemic, but the governor defended his
                 response as following federal guidance.
               </div>
-            </article>
-            <article>
+            </div>
+            <div>
               <div class="card text-black">
                 <a href="#"
                   ><img
@@ -282,12 +293,12 @@
                 Georgia Republican Representative Marjorie Taylor Greene warned
                 Republicans on Friday not to "cower to the mob."
               </div>
-            </article>
+            </div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-5">
           <div class="trend-title">TOP STORY</div>
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -313,7 +324,7 @@
               bodes well for Gavin Newsom, according to former California
               Governor Gray Davis, who was recalled in 2003.
             </div>
-          </article>
+          </div>
           <div class="small-grid">
             <div class="trend-title">My Turn</div>
             <div class="row">
@@ -354,7 +365,7 @@
             <div class="trend-title">CULTURE & TRAVEL</div>
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-4 my-turn mb-3">
-                <article>
+                <div>
                   <div class="card text-black">
                     <a href="#" class="zero">
                       <img
@@ -376,10 +387,10 @@
                     Steve McCurry's Search for Elsewhere: 40 Years of Unseen
                     Images
                   </a>
-                </article>
+                </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-4 my-turn mb-3">
-                <article>
+                <div>
                   <div class="card text-black">
                     <a href="#">
                       <img
@@ -398,10 +409,10 @@
                   </div>
                   <div class="mb-3"></div>
                   <a href="#"> The Secrets to Happiness Around the World </a>
-                </article>
+                </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-4 my-turn mb-3">
-                <article>
+                <div>
                   <div class="card text-black">
                     <a href="#">
                       <img
@@ -420,7 +431,7 @@
                   </div>
                   <div class="mb-3"></div>
                   <a href="#"> Where We Are Dreaming of Traveling in 2021 </a>
-                </article>
+                </div>
               </div>
             </div>
           </div>
@@ -904,13 +915,13 @@
       <div class="col-md-12">
         <div class="d-flex align-items-center justify-content-center mb-3">
           <img src="asset/images/b-logo.png" alt="nlogo" />
-          <span class="sec1-header ms-2">IN THE MAGAZINE</span>
+          <h1 class="sec1-header ms-2">IN THE MAGAZINE</h1>
         </div>
         <hr />
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-3">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -925,13 +936,13 @@
                 </div>
               </a>
             </div>
-            <button class="issue-article-title text-center p-2">
+            <button type="submit" class="issue-article-title text-center p-2">
               SEE ALL FEATURES >
             </button>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-3 py-5">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -946,12 +957,12 @@
               <span class="issue-span-new"><a href="#">POLITICS</a></span>
             </div>
             <div class="trend-article-title mt-2">
-              <a href="#"> Can Joe Biden Succeed Where Barack Obama Failed? </a>
+              <h2><a href="#"> Can Joe Biden Succeed Where Barack Obama Failed? </a></h2>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-3 py-5">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -966,15 +977,17 @@
               <span class="issue-span-new"><a href="#">POLITICS</a></span>
             </div>
             <div class="trend-article-title mt-2">
-              <a href="#">
+              <h2>
+                <a href="#">
                 Joe Biden's Options for Dealing with Donald Trump Are Worse than
                 Watergate
               </a>
+            </h2>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-3 py-5">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -989,17 +1002,18 @@
               <span class="issue-span-new"><a href="#">OPINION</a></span>
             </div>
             <div class="trend-article-title mt-2">
+              <h2>
               <a href="#">
-                Joe Biden's Options for Dealing with Donald Trump Are Worse than
-                Watergate
+                After Parler Ban, Rein in Big Tech Now or Cease Being Free Citizens
               </a>
+            </h2>
             </div>
-          </article>
+          </div>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-3 py-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1014,12 +1028,12 @@
               <span class="issue-span-new"><a href="#">Culture</a></span>
             </div>
             <div class="trend-article-title mt-2">
-              <a href="#"> Media Have Every Right to Cancel Trump </a>
+              <h2><a href="#"> Media Have Every Right to Cancel Trump </a></h2>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-3 py-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1034,12 +1048,12 @@
               <span class="issue-span-new"><a href="#">Culture</a></span>
             </div>
             <div class="trend-article-title mt-2">
-              <a href="#"> Nick Ut: Why I Accepted Trump's Medal Of Arts </a>
+              <h2><a href="#"> Nick Ut: Why I Accepted Trump's Medal Of Arts </a></h2>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-3 py-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1054,15 +1068,17 @@
               <span class="issue-span-new"><a href="#">culture</a></span>
             </div>
             <div class="trend-article-title mt-2">
-              <a href="#">
+              <h2>
+                <a href="#">
                 We Need a Dedicated COVID Vaccine Corps. Why Not an
                 Intergenerational One?
               </a>
+            </h2>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-3 py-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img class="card-img" src="asset/images/guard.jpg" alt="" />
@@ -1073,12 +1089,14 @@
               <span class="issue-span-new"><a href="#">ON GUARD</a></span>
             </div>
             <div class="trend-article-title mt-2">
-              <a href="#">
+              <h2>
+                <a href="#">
                 Joe Biden's Options for Dealing with Donald Trump Are Worse than
                 Watergate
               </a>
+              </h2>
             </div>
-          </article>
+          </div>
         </div>
       </div>
     </section>
@@ -1093,7 +1111,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-3">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1119,10 +1137,10 @@
               claimed he was within political right to challenge the election
               results.
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-3">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1147,10 +1165,10 @@
               During his final speech as president, Trump promised he'd "be back
               in some form."
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-3">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1175,10 +1193,10 @@
               GameStop frenzy is a symptom of a much larger "rigged game" on
               Wall Street.
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-3">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1203,12 +1221,12 @@
               The Kremlin responded by accusing the U.S. and Secretary of State
               Blinken of "crude interference" in their domestic affairs.
             </div>
-          </article>
+          </div>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-3">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1234,10 +1252,10 @@
               after a New York Times report detailed sexual harassment
               allegations against him on Sunday.
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-3">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1263,10 +1281,10 @@
               Greene: Resign," the billboards, put up in Greene's Georgia
               district, say.
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-3">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1291,10 +1309,10 @@
               One of those charged was filmed smashing his way into the Capitol
               using a Capitol Police riot shield.
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-3">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1320,7 +1338,7 @@
               proposed $1.9 trillion relief bill but said Friday the legislation
               must pass "no ifs, ands or buts."
             </div>
-          </article>
+          </div>
         </div>
       </div>
       <hr />
@@ -1332,7 +1350,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#">
                 <img
@@ -1347,10 +1365,10 @@
                 Agitated Bees Attack Arizona Family, 4 People Injured
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1366,7 +1384,7 @@
                 Police Say
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
           <div class="row">
@@ -1428,7 +1446,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#">
                 <img
@@ -1443,10 +1461,10 @@
                 LGBTQ Art Arrests Inflame Turkey Student Protests
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1462,7 +1480,7 @@
                 Deal
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
           <div class="row">
@@ -1524,7 +1542,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#">
                 <img
@@ -1539,10 +1557,10 @@
                 Jesse Ventura Rages at Billionaires, Calls for 'Maximum Wage'
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1558,7 +1576,7 @@
                 Capital
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
           <div class="row">
@@ -1620,7 +1638,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#">
                 <img
@@ -1636,10 +1654,10 @@
                 You Can'
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1655,7 +1673,7 @@
                 Fingernail
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
           <div class="row">
@@ -1708,7 +1726,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#">
                 <img
@@ -1723,10 +1741,10 @@
                 What Evan Rachel Wood Has Accused Marilyn Manson Of
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1742,7 +1760,7 @@
                 'Sonic Prime'
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
           <div class="row">
@@ -1801,7 +1819,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#">
                 <img
@@ -1816,10 +1834,10 @@
                 Looking Back at Tampa's Only Previous Super Bowl Win
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1835,7 +1853,7 @@
                 Bomb-Detectors, More
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
           <div class="row">
@@ -1893,7 +1911,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#">
                 <img
@@ -1908,10 +1926,10 @@
                 Newsweek Announces Launch of the Newsweek Expert Forum
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4">
-          <article>
+          <div>
             <div class="card text-black">
               <a href="#"
                 ><img
@@ -1926,7 +1944,7 @@
                 Line is Your Front Line Your First Line is Your Front Line
               </a>
             </div>
-          </article>
+          </div>
         </div>
         <div class="col-sm-12 col-md-4 mb-5">
           <div class="row">
@@ -1989,10 +2007,12 @@
                   <img
                     src="asset/images/cover-january-22-2021.jpg"
                     class="img1"
+                    alt="cover-january-22-2021"
                   />
                   <img
                     src="asset/images/cover-january-29-february-05-2021.jpg"
                     class="img2"
+                    alt="january-29-february-05-2021"
                   />
                 </div>
               </div>
@@ -2037,7 +2057,7 @@
                         placeholder="Email address"
                       />
                     </div>
-                    <button type="button w-100" class="btn btn-primary">
+                    <button type="submit" class="btn btn-primary">
                       Free Sign Up >
                     </button>
                   </form>
@@ -2052,14 +2072,14 @@
     <div class="horizonline"></div>
 
     <footer class="p-4 ms-3 me-3 bg-white">
-      <div class="row flex-nowrap justify-content-between align-items-center">
-        <div class="col-8 pt-1">
-          <div class="h-100 d-flex align-items-center">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-8 pt-1">
+          <div class="align-items-center">
             <img src="asset/images/f-logo.jpg" alt="logo" />
             <span class="ms-2"> © 2021 NEWSWEEK DIGITAL LLC </span>
           </div>
         </div>
-        <div class="col-4 d-flex justify-content-end align-items-center">
+        <div class="col-md-4 d-flex justify-content-end align-items-center">
           <a href="#" class="fa"><i class="fab fa-facebook-square"></i></a>
           <a href="#" class="fa"><i class="fab fa-twitter"></i></a>
           <a href="#" class="fa"><i class="fab fa-instagram"></i></a>
@@ -2072,9 +2092,7 @@
         <div>
           <div class="">
             <ul class="navbar-nav footer-menu me-auto mb-2 mb-lg-0">
-              <div class="navbar-header">
-                <span class="footer-menu-header">Editions:</span>
-              </div>
+              <li class="navbar-header footer-menu-header">Editions:</li>
               <li class="nav-item">
                 <a href="#">U.S. Edition</a>
               </li>
