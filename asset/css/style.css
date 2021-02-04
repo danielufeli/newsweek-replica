@@ -97,6 +97,7 @@ body {
 }
 
 .top li {
+  padding: 0 20px;
   float: left;
   list-style: none;
   border-right: 1px solid #d9d9d9;
@@ -165,7 +166,7 @@ input[type='text'] {
   padding: 10px;
   font-size: 17px;
   background-color: #fff;
-  width: 12vh;
+  width: max-content;
   font-weight: bold;
   text-transform: uppercase;
   opacity: 0.8;
@@ -477,6 +478,10 @@ p::after {
   display: none;
 }
 
+#login-icon {
+  display: none;
+}
+
 .top-sub-button {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #ffe400;
@@ -485,6 +490,34 @@ p::after {
   border: none;
   border-radius: 2rem;
   width: 6rem;
+}
+
+#login-txt {
+  display: none;
+}
+
+.news-img {
+  height: 320px;
+}
+
+.newsletter-btn {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #f61602;
+  width: 100%;
+  border: none;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1200px) {
+  .top li {
+    padding: 0 10px;
+  }
+
+  .news-img {
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -498,5 +531,62 @@ p::after {
 
   #sbutton {
     display: inline;
+  }
+
+  #login-txt {
+    display: inline;
+  }
+
+  .top li {
+    border-right: none;
+  }
+
+  .footer-menu li {
+    border-right: none;
+  }
+
+  .top-menu {
+    border: none;
+    margin: 0;
+  }
+
+  .sub {
+    border: none;
+  }
+
+  #first {
+    order: 2;
+  }
+
+  #second {
+    order: 1;
+  }
+
+  #third {
+    order: 3;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #newsletter {
+    text-align: center;
+  }
+
+  .subscribe {
+    text-align: center;
+  }
+
+  #subflow {
+    position: relative;
+    top: -110px;
+  }
+
+  #login-icon {
+    display: inline;
+    border: none;
+  }
+
+  #login-txt {
+    display: none;
   }
 }
