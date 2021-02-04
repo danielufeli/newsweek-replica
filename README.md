@@ -43,4 +43,4 @@ Feel free to check the [issues page](issues/).
 
 ## 📝 License
 
-This project is [MIT](LICENSE.url) licensed.
+This project is [MIT](LICENSE) licensed.
